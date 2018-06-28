@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  More Respectful Overall
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 31
+ Smple Mean : 3.56129
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1252961
+ Bootstrap Std.Dev : 0.1252961
+ Bootstrap Std.Error : 0.1252961
+ Confidence Interval : [ 3.315714 , 3.806866 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 2.997103
+ Randomization Std.Dev : 0.1245261
+ p-value : 3.281198e-06

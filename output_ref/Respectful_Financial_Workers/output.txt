@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Mean Difference:  Respectful Financial Workers
+----------------------------------------------------------------
+ Sample Size : 29
+ Lower Tail : TRUE
+ Mean difference : 0
+ Influence : (0)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.2056698
+ Bootstrap Std.Dev : 0.2056698
+ Bootstrap Std.Error : 0.2056698
+ Confidence Interval : [ -0.403105 , 0.403105 ]
+
+----- p-value -----
+ Mean of altered means: 0
+ Randomization Mean : -0.003241379
+ Randomization Std.Dev : 0.1977521
+ p-value : 0.5

@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Mean Difference:  Test Student Backgrounds
+----------------------------------------------------------------
+ Sample Size : 30
+ Lower Tail : FALSE
+ Mean difference : 0.2166667
+ Influence : (-)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.2125867
+ Bootstrap Std.Dev : 0.2125867
+ Bootstrap Std.Error : 0.2125867
+ Confidence Interval : [ -0.199996 , 0.633329 ]
+
+----- p-value -----
+ Mean of altered means: 0
+ Randomization Mean : 0.004533333
+ Randomization Std.Dev : 0.1755285
+ p-value : 0.108533

@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Mean Difference:  Test Working Hours
+----------------------------------------------------------------
+ Sample Size : 30
+ Lower Tail : TRUE
+ Mean difference : -0.4
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.2546339
+ Bootstrap Std.Dev : 0.2546339
+ Bootstrap Std.Error : 0.2546339
+ Confidence Interval : [ -0.899073 , 0.099073 ]
+
+----- p-value -----
+ Mean of altered means: 0
+ Randomization Mean : -0.007166667
+ Randomization Std.Dev : 0.2768107
+ p-value : 0.0742246

@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  More Respectful School Admins
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 31
+ Smple Mean : 3.580645
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1599107
+ Bootstrap Std.Dev : 0.1599107
+ Bootstrap Std.Error : 0.1599107
+ Confidence Interval : [ 3.267226 , 3.894064 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 2.994645
+ Randomization Std.Dev : 0.1571672
+ p-value : 0.0001101854

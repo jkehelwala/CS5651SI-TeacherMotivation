@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Mean Difference:  Respectful School Admins
+----------------------------------------------------------------
+ Sample Size : 29
+ Lower Tail : TRUE
+ Mean difference : 0.1034483
+ Influence : (-)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.2287262
+ Bootstrap Std.Dev : 0.2287262
+ Bootstrap Std.Error : 0.2287262
+ Confidence Interval : [ -0.344847 , 0.551743 ]
+
+----- p-value -----
+ Mean of altered means: 0
+ Randomization Mean : -0.006965517
+ Randomization Std.Dev : 0.184106
+ p-value : 0.7129063

@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Performance School Administration
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 30
+ Smple Mean : 3.4
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.148283
+ Bootstrap Std.Dev : 0.148283
+ Bootstrap Std.Error : 0.148283
+ Confidence Interval : [ 3.109371 , 3.690629 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 2.9996
+ Randomization Std.Dev : 0.1443091
+ p-value : 0.00278712

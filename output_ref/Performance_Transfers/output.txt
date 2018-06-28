@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Performance Transfers
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 30
+ Smple Mean : 2.933333
+ Influence : (-)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1651128
+ Bootstrap Std.Dev : 0.1651128
+ Bootstrap Std.Error : 0.1651128
+ Confidence Interval : [ 2.609718 , 3.256948 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 3.000433
+ Randomization Std.Dev : 0.1696622
+ p-value : 0.6528172

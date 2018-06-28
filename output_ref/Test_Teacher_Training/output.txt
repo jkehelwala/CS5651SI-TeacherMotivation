@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Mean Difference:  Test Teacher Training
+----------------------------------------------------------------
+ Sample Size : 31
+ Lower Tail : TRUE
+ Mean difference : 0
+ Influence : (0)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.2422934
+ Bootstrap Std.Dev : 0.2422934
+ Bootstrap Std.Error : 0.2422934
+ Confidence Interval : [ -0.474886 , 0.474886 ]
+
+----- p-value -----
+ Mean of altered means: 0
+ Randomization Mean : -0.01016129
+ Randomization Std.Dev : 0.2241879
+ p-value : 0.5

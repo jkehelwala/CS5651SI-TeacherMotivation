@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Performance Ministry Administration
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 30
+ Smple Mean : 3.2
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1721052
+ Bootstrap Std.Dev : 0.1721052
+ Bootstrap Std.Error : 0.1721052
+ Confidence Interval : [ 2.86268 , 3.53732 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 3.001967
+ Randomization Std.Dev : 0.1590957
+ p-value : 0.1043578

@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Mean Difference:  AltTest Student Positive Participation
+----------------------------------------------------------------
+ Sample Size : 31
+ Lower Tail : TRUE
+ Mean difference : -0.01612903
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.2192282
+ Bootstrap Std.Dev : 0.2192282
+ Bootstrap Std.Error : 0.2192282
+ Confidence Interval : [ -0.445808 , 0.41355 ]
+
+----- p-value -----
+ Mean of altered means: 0
+ Randomization Mean : -0.0007096774
+ Randomization Std.Dev : 0.1911454
+ p-value : 0.4663768

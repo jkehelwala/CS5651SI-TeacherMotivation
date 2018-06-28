@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Mean Difference:  Test Motivation Drop
+----------------------------------------------------------------
+ Sample Size : 30
+ Lower Tail : FALSE
+ Mean difference : 0.03333333
+ Influence : (-)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.2361636
+ Bootstrap Std.Dev : 0.2361636
+ Bootstrap Std.Error : 0.2361636
+ Confidence Interval : [ -0.429539 , 0.496205 ]
+
+----- p-value -----
+ Mean of altered means: 0
+ Randomization Mean : 0.0071
+ Randomization Std.Dev : 0.1468447
+ p-value : 0.410213

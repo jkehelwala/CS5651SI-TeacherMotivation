@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Mean Difference:  Respectful Society
+----------------------------------------------------------------
+ Sample Size : 29
+ Lower Tail : TRUE
+ Mean difference : -0.6551724
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.2169367
+ Bootstrap Std.Dev : 0.2169367
+ Bootstrap Std.Error : 0.2169367
+ Confidence Interval : [ -1.080361 , -0.229984 ]
+
+----- p-value -----
+ Mean of altered means: 0
+ Randomization Mean : -0.008724138
+ Randomization Std.Dev : 0.2210883
+ p-value : 0.001521317

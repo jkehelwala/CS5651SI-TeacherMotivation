@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Performance Training
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 30
+ Smple Mean : 3.7
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1701083
+ Bootstrap Std.Dev : 0.1701083
+ Bootstrap Std.Error : 0.1701083
+ Confidence Interval : [ 3.366594 , 4.033406 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 3.005767
+ Randomization Std.Dev : 0.1669403
+ p-value : 1.375743e-05

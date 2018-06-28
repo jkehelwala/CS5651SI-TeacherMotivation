@@ -1,0 +1,18 @@
+
+----------------------------------------------------------------
+Test Proportion :  Eval Current Attitude
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 31
+ Proportion : 3.322581
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1557452
+ Bootstrap Std.Dev : 0.1557452
+ Bootstrap Std.Error : 0.1557452
+ Confidence Interval : [ 3.017326 , 3.627836 ]
+
+----- p-value -----
+ Randomization Mean : 0.4999677
+ Randomization Std.Dev : 0.08791389
+ p-value : 1.806362e-226

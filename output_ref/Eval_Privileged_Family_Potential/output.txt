@@ -1,0 +1,18 @@
+
+----------------------------------------------------------------
+Test Proportion :  Eval Privileged Family Potential
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 31
+ Proportion : 0.9354839
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.04482486
+ Bootstrap Std.Dev : 0.04482486
+ Bootstrap Std.Error : 0.04482486
+ Confidence Interval : [ 0.847629 , 1.023339 ]
+
+----- p-value -----
+ Randomization Mean : 0.5003548
+ Randomization Std.Dev : 0.08700804
+ p-value : 2.791667e-07

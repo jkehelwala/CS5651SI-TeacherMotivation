@@ -1,0 +1,18 @@
+
+----------------------------------------------------------------
+Test Proportion :  Eval Progress Outlook
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 29
+ Proportion : 0.7586207
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.08006415
+ Bootstrap Std.Dev : 0.08006415
+ Bootstrap Std.Error : 0.08006415
+ Confidence Interval : [ 0.601698 , 0.915544 ]
+
+----- p-value -----
+ Randomization Mean : 0.4993448
+ Randomization Std.Dev : 0.0944547
+ p-value : 0.003090335

@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Mean Difference:  Respectful Ministry Workers
+----------------------------------------------------------------
+ Sample Size : 29
+ Lower Tail : TRUE
+ Mean difference : 0.862069
+ Influence : (-)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.2485798
+ Bootstrap Std.Dev : 0.2485798
+ Bootstrap Std.Error : 0.2485798
+ Confidence Interval : [ 0.374862 , 1.349276 ]
+
+----- p-value -----
+ Mean of altered means: 0
+ Randomization Mean : 0.0002068966
+ Randomization Std.Dev : 0.1931014
+ p-value : 0.999996
