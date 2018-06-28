@@ -3,15 +3,15 @@
 # Null hypothesis; p(fact) = 0.5
 # Alternate; p(fact) != 0.5 
 
-proportion_eval <- function(title, vector_x, lower_tail) {
+proportion_eval <- function(output_file, vector_x, lower_tail) {
 
 	vector_prop = vector_x[!is.na(vector_x)]
-	output_file = gsub(" ", "_", title)
+	title = gsub("_", " ", output_file)
 	dir.create(file.path("output/", output_file), showWarnings = FALSE)
 	output_file_txt = paste("output/", output_file, "/output.txt", sep="")
 	sink(file = output_file_txt)
 	cat("\n----------------------------------------------------------------")
-	cat("\nTest : ", title)
+	cat("\nTest Proportion : ", title)
 	cat("\n----------------------------------------------------------------")
 
 	h0_proportion = 0.5				
@@ -77,6 +77,6 @@ proportion_eval <- function(title, vector_x, lower_tail) {
 
 	print_str = readChar(output_file_txt, file.info(output_file_txt)$size)
 	# proportion_props = c("Type", "Test", "Proportion", "Std.Error", "Confidence Interval", "p-value", "filestr")
-	proportion_props = c("Type1", title, known_proportion, bs_standard_error, ci_interval, p_value, print_str)
+	proportion_props = c("Type1", title, known_proportion, bs_standard_error, ci_interval, format(p_value, scientific = FALSE), print_str)
 	return(proportion_props)
 }

@@ -3,14 +3,14 @@
 # Null hypothesis; mu(vector_a) = mu(vector_b)
 # Alternate; mu(vector_a) != mu(vector_b) 
 
-mean_comparison <- function(title, vector_a, vector_b) {
+mean_comparison <- function(output_file, vector_a, vector_b, lower_tail) {
 
-	output_file = gsub(" ", "_", title)
+	title = gsub("_", " ", output_file)
 	dir.create(file.path("output/", output_file), showWarnings = FALSE)
 	output_file_txt = paste("output/", output_file, "/output.txt", sep="")
 	sink(file = output_file_txt)
 	cat("\n----------------------------------------------------------------")
-	cat("\nTest : ", title)
+	cat("\nTest Mean Difference: ", title)
 	cat("\n----------------------------------------------------------------")
 
 	h0_mu_diff = 0				
@@ -21,7 +21,6 @@ mean_comparison <- function(title, vector_a, vector_b) {
 
 	sample_size = length(vector_a)
 	mu_diff = mean(vector_a) - mean(vector_b)
-	lower_tail = mu_diff < 0
 	cat("\n","Sample Size :", sample_size)
 	cat("\n","Lower Tail :", lower_tail)
 	cat("\n","Mean difference :", mu_diff)
@@ -91,7 +90,7 @@ mean_comparison <- function(title, vector_a, vector_b) {
 	
 	print_str = readChar(output_file_txt, file.info(output_file_txt)$size)
 	# mean_props = c("Type","Test", "Mean difference", "Influence", "Std.Error", "Confidence Interval", "p-value", "filestr")
-	mean_props = c("Type2", title, mu_diff, get_influence(mu_diff), bs_standard_error, ci_interval, p_value, print_str)
+	mean_props = c("Type2", title, mu_diff, get_influence(mu_diff), bs_standard_error, ci_interval, format(p_value, scientific = FALSE), print_str)
 	return(mean_props)
 }
 
