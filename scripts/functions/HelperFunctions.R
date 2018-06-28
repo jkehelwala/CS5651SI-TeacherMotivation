@@ -1,5 +1,6 @@
 # proportion_props = c("Type", "Test", "Proportion", "Std.Error", "Confidence Interval", "p-value", "filestr")
 # mean_props = c("Type","Test", "Mean difference", "Influence", "Std.Error", "Confidence Interval", "p-value", "filestr")
+mean_analysis_df <<- data.frame()
 proportion_summary <<- c("Test", "Proportion", "Std.Error", "Confidence Interval", "p-value")
 mean_summary <<- c("Test", "Mean difference", "Influence", "Std.Error", "Confidence Interval", "p-value")
 single_mean_summary <<- c("Test", "Mean", "Influence", "Std.Error", "Confidence Interval", "p-value")
@@ -55,6 +56,11 @@ get_single_mean_summary <- function(){
 	return(get_summary(single_mean_summary, 6))
 }
 
-print_summary <- function(print_df){
+get_mean_analysis <- function(){
+	return(mean_analysis_df)
+}
+
+print_analysis <- function(print_df){
+	mean_analysis_df <<- print_df
 	print(print_df)
 }

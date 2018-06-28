@@ -16,6 +16,4 @@ for (i in 1:length(q)){
 analysis.df = data.frame(column_names, mean_vals, sd_vals, counts)
 
 # General Averages
-file_n = "output/MeanSummary.csv"
-write.table(analysis.df, file = file_n, sep = ",", row.names = FALSE, col.names = TRUE)
-print_summary(analysis.df)
+print_analysis(analysis.df)
