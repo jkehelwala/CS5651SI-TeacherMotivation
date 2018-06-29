@@ -3,16 +3,16 @@
 Test Proportion :  Eval Student Economical Diversity
 ----------------------------------------------------------------
  Lower Tail : FALSE
- Sample Size : 31
- Proportion : 0.9677419
+ Sample Size : 33
+ Proportion : 0.969697
 
 -----Confidence Interval-----
- Bootstrap Mean : 0.03267474
- Bootstrap Std.Dev : 0.03267474
- Bootstrap Std.Error : 0.03267474
- Confidence Interval : [ 0.903701 , 1.031783 ]
+ Bootstrap Mean : 0.02909559
+ Bootstrap Std.Dev : 0.02909559
+ Bootstrap Std.Error : 0.02909559
+ Confidence Interval : [ 0.912671 , 1.026723 ]
 
 ----- p-value -----
- Randomization Mean : 0.5018387
- Randomization Std.Dev : 0.08887282
- p-value : 7.08432e-08
+ Randomization Mean : 0.4966667
+ Randomization Std.Dev : 0.08436905
+ p-value : 1.29454e-08

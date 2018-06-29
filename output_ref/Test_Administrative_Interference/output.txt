@@ -2,19 +2,19 @@
 ----------------------------------------------------------------
 Test Mean Difference:  Test Administrative Interference
 ----------------------------------------------------------------
- Sample Size : 30
+ Sample Size : 32
  Lower Tail : FALSE
- Mean difference : 0.3555556
+ Mean difference : 0.3645833
  Influence : (-)
 
 -----Confidence Interval-----
- Bootstrap Mean : 0.1890991
- Bootstrap Std.Dev : 0.1890991
- Bootstrap Std.Error : 0.1890991
- Confidence Interval : [ -0.015072 , 0.726183 ]
+ Bootstrap Mean : 0.1789044
+ Bootstrap Std.Dev : 0.1789044
+ Bootstrap Std.Error : 0.1789044
+ Confidence Interval : [ 0.013937 , 0.715229 ]
 
 ----- p-value -----
  Mean of altered means: 0
- Randomization Mean : 0.002311111
- Randomization Std.Dev : 0.1318293
- p-value : 0.003497402
+ Randomization Mean : 0.006458333
+ Randomization Std.Dev : 0.1304758
+ p-value : 0.002600924

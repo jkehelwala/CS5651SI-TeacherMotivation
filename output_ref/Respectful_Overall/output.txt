@@ -2,19 +2,19 @@
 ----------------------------------------------------------------
 Test Mean Difference:  Respectful Overall
 ----------------------------------------------------------------
- Sample Size : 29
+ Sample Size : 31
  Lower Tail : TRUE
  Mean difference : 0
  Influence : (0)
 
 -----Confidence Interval-----
- Bootstrap Mean : 0.1789413
- Bootstrap Std.Dev : 0.1789413
- Bootstrap Std.Error : 0.1789413
- Confidence Interval : [ -0.350718 , 0.350718 ]
+ Bootstrap Mean : 0.184298
+ Bootstrap Std.Dev : 0.184298
+ Bootstrap Std.Error : 0.184298
+ Confidence Interval : [ -0.361217 , 0.361217 ]
 
 ----- p-value -----
  Mean of altered means: 0
- Randomization Mean : 0.001441379
- Randomization Std.Dev : 0.1625924
+ Randomization Mean : -0.005574194
+ Randomization Std.Dev : 0.1602226
  p-value : 0.5

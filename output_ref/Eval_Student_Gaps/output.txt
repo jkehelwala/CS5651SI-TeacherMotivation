@@ -3,7 +3,7 @@
 Test Proportion :  Eval Student Gaps
 ----------------------------------------------------------------
  Lower Tail : FALSE
- Sample Size : 31
+ Sample Size : 33
  Proportion : 1
 
 -----Confidence Interval-----
@@ -13,6 +13,6 @@ Test Proportion :  Eval Student Gaps
  Confidence Interval : [ 1 , 1 ]
 
 ----- p-value -----
- Randomization Mean : 0.5032581
- Randomization Std.Dev : 0.08988119
- p-value : 1.326648e-08
+ Randomization Mean : 0.4991818
+ Randomization Std.Dev : 0.08751025
+ p-value : 5.530017e-09

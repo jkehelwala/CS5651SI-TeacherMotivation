@@ -3,18 +3,18 @@
 Test Single Mean:  More Respectful Society
 ----------------------------------------------------------------
  Lower Tail : FALSE
- Sample Size : 31
- Smple Mean : 3.741935
+ Sample Size : 33
+ Smple Mean : 3.666667
  Influence : (+)
 
 -----Confidence Interval-----
- Bootstrap Mean : 0.1805015
- Bootstrap Std.Dev : 0.1805015
- Bootstrap Std.Error : 0.1805015
- Confidence Interval : [ 3.388159 , 4.095712 ]
+ Bootstrap Mean : 0.1787516
+ Bootstrap Std.Dev : 0.1787516
+ Bootstrap Std.Error : 0.1787516
+ Confidence Interval : [ 3.31632 , 4.017013 ]
 
 ----- p-value -----
  Adjusted Mean : 3
- Randomization Mean : 3.003226
- Randomization Std.Dev : 0.1803721
- p-value : 1.949703e-05
+ Randomization Mean : 2.992788
+ Randomization Std.Dev : 0.1748531
+ p-value : 6.872158e-05

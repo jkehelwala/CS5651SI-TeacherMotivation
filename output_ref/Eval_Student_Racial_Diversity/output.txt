@@ -3,7 +3,7 @@
 Test Proportion :  Eval Student Racial Diversity
 ----------------------------------------------------------------
  Lower Tail : FALSE
- Sample Size : 31
+ Sample Size : 33
  Proportion : 1
 
 -----Confidence Interval-----
@@ -13,6 +13,6 @@ Test Proportion :  Eval Student Racial Diversity
  Confidence Interval : [ 1 , 1 ]
 
 ----- p-value -----
- Randomization Mean : 0.502871
- Randomization Std.Dev : 0.09357338
- p-value : 4.560951e-08
+ Randomization Mean : 0.4969394
+ Randomization Std.Dev : 0.08439029
+ p-value : 1.562893e-09

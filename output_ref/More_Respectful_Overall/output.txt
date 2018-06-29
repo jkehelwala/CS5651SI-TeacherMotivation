@@ -3,18 +3,18 @@
 Test Single Mean:  More Respectful Overall
 ----------------------------------------------------------------
  Lower Tail : FALSE
- Sample Size : 31
- Smple Mean : 3.56129
+ Sample Size : 33
+ Smple Mean : 3.484848
  Influence : (+)
 
 -----Confidence Interval-----
- Bootstrap Mean : 0.1252961
- Bootstrap Std.Dev : 0.1252961
- Bootstrap Std.Error : 0.1252961
- Confidence Interval : [ 3.315714 , 3.806866 ]
+ Bootstrap Mean : 0.1259225
+ Bootstrap Std.Dev : 0.1259225
+ Bootstrap Std.Error : 0.1259225
+ Confidence Interval : [ 3.238045 , 3.731652 ]
 
 ----- p-value -----
  Adjusted Mean : 3
- Randomization Mean : 2.997103
- Randomization Std.Dev : 0.1245261
- p-value : 3.281198e-06
+ Randomization Mean : 3.002273
+ Randomization Std.Dev : 0.1225207
+ p-value : 3.790419e-05

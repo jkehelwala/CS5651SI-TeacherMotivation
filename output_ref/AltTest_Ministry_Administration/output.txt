@@ -2,19 +2,19 @@
 ----------------------------------------------------------------
 Test Mean Difference:  AltTest Ministry Administration
 ----------------------------------------------------------------
- Sample Size : 31
+ Sample Size : 33
  Lower Tail : FALSE
- Mean difference : 0.2258065
+ Mean difference : 0.2424242
  Influence : (-)
 
 -----Confidence Interval-----
- Bootstrap Mean : 0.2056024
- Bootstrap Std.Dev : 0.2056024
- Bootstrap Std.Error : 0.2056024
- Confidence Interval : [ -0.177167 , 0.62878 ]
+ Bootstrap Mean : 0.1995031
+ Bootstrap Std.Dev : 0.1995031
+ Bootstrap Std.Error : 0.1995031
+ Confidence Interval : [ -0.148595 , 0.633443 ]
 
 ----- p-value -----
  Mean of altered means: 0
- Randomization Mean : -0.009967742
- Randomization Std.Dev : 0.1522697
- p-value : 0.06904549
+ Randomization Mean : 0.005181818
+ Randomization Std.Dev : 0.1463077
+ p-value : 0.04876499

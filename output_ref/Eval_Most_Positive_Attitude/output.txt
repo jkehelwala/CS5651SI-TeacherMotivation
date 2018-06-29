@@ -3,16 +3,16 @@
 Test Proportion :  Eval Most Positive Attitude
 ----------------------------------------------------------------
  Lower Tail : FALSE
- Sample Size : 30
- Proportion : 3.333333
+ Sample Size : 32
+ Proportion : 3.3125
 
 -----Confidence Interval-----
- Bootstrap Mean : 0.1622226
- Bootstrap Std.Dev : 0.1622226
- Bootstrap Std.Error : 0.1622226
- Confidence Interval : [ 3.015383 , 3.651284 ]
+ Bootstrap Mean : 0.1522001
+ Bootstrap Std.Dev : 0.1522001
+ Bootstrap Std.Error : 0.1522001
+ Confidence Interval : [ 3.014193 , 3.610807 ]
 
 ----- p-value -----
- Randomization Mean : 0.5013
- Randomization Std.Dev : 0.09169421
- p-value : 6.008439e-210
+ Randomization Mean : 0.5022813
+ Randomization Std.Dev : 0.08859642
+ p-value : 1.856511e-221

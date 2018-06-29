@@ -2,19 +2,19 @@
 ----------------------------------------------------------------
 Test Mean Difference:  Test Student Participation
 ----------------------------------------------------------------
- Sample Size : 30
+ Sample Size : 32
  Lower Tail : TRUE
- Mean difference : 0.1888889
+ Mean difference : 0.1770833
  Influence : (-)
 
 -----Confidence Interval-----
- Bootstrap Mean : 0.1818614
- Bootstrap Std.Dev : 0.1818614
- Bootstrap Std.Error : 0.1818614
- Confidence Interval : [ -0.167553 , 0.545331 ]
+ Bootstrap Mean : 0.1754883
+ Bootstrap Std.Dev : 0.1754883
+ Bootstrap Std.Error : 0.1754883
+ Confidence Interval : [ -0.166867 , 0.521034 ]
 
 ----- p-value -----
  Mean of altered means: 0
- Randomization Mean : 0.008266667
- Randomization Std.Dev : 0.1493571
- p-value : 0.8970069
+ Randomization Mean : -0.005145833
+ Randomization Std.Dev : 0.1454716
+ p-value : 0.8882559

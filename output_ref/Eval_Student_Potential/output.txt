@@ -3,16 +3,16 @@
 Test Proportion :  Eval Student Potential
 ----------------------------------------------------------------
  Lower Tail : FALSE
- Sample Size : 31
- Proportion : 0.7741935
+ Sample Size : 33
+ Proportion : 0.7878788
 
 -----Confidence Interval-----
- Bootstrap Mean : 0.07486834
- Bootstrap Std.Dev : 0.07486834
- Bootstrap Std.Error : 0.07486834
- Confidence Interval : [ 0.627454 , 0.920933 ]
+ Bootstrap Mean : 0.07422944
+ Bootstrap Std.Dev : 0.07422944
+ Bootstrap Std.Error : 0.07422944
+ Confidence Interval : [ 0.642392 , 0.933366 ]
 
 ----- p-value -----
- Randomization Mean : 0.4979355
- Randomization Std.Dev : 0.08833883
- p-value : 0.000954989
+ Randomization Mean : 0.4960303
+ Randomization Std.Dev : 0.08679077
+ p-value : 0.0004550642
