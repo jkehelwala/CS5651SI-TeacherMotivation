@@ -1,9 +1,20 @@
-# CS5651SI Project - TeacherMotivation
+# CS5651SI Project - Study of factors contributing to Teacher Motivation
 
-## Build Instructions
+This study aims to measure the postive, negative or neutral effects of student participation, student backgrounds, parent involvement, salary, vacation-time,teacher training and administrative interference on teacher motivation. A wide range of data representing each of the above factors were collected, and confidence interval evaluations and hypotheses tests were conducted to facilitate a comprehensive analysis.
+
+## Mapping of important folders
+
+| Folder        | Content           								|
+| ------------- |---------------------------------------------------|
+| questionnaire | Questionnaires    								|
+| output_ref    | Outcomes/Figures  								|
+| data          | Responses         								|
+| scripts       | R Functions for CI and p-value calculations       |
+
+## Execution Instructions
 
 1) Clone the repository and navigate inside 
-2) Inspect **output_ref** folder for a **Sample Output for finalized code** 
+2) Inspect _output_ref_ folder for a _Sample Output for finalized code_
 3) Run the following command to generate the reports
 
 ```bash
@@ -22,7 +33,7 @@ CS5651SI-TeacherMotivation
 ├───data                                # Collected and Processed Data
 │       QuestionnaireAnswers.csv            # Normalized CSV from original spreadsheet
 │       SIQuestionnaireAnswers.ods          # Original Spreadsheet
-├───output_ref                          # Sample Output
+├───output_ref                          # Outcomes/Figures; Sample Output for finalized code
 │   │   CompleteSummary.csv                 # Aggregate CSV file 
 │   │   Evaluations.csv                     
 │   │   MeanSummary.csv                     
@@ -36,6 +47,6 @@ CS5651SI-TeacherMotivation
 ├───questionnaire                       # Quesionnaire PDFs in two languages
 │       questionnaire_english.pdf
 │       questionnaire_sinhala.pdf
-└───scripts                             # R Scripts to be invoked by "init" script
-    └───functions                           # Functions for Confidence Interval and Hypothesis Testing
+└───scripts                             # R scripts used for analysis (called through init.R)
+    └───functions                           # R Functions for Confidence Interval and Hypothesis Testing
 ~~~~~~~~
