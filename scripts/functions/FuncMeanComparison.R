@@ -1,7 +1,7 @@
-# One tailed test for difference in means
+# Paired difference in means
 # Arguments - title vector_a vector_b 
-# Null hypothesis; mu(vector_a) = mu(vector_b)
-# Alternate; mu(vector_a) != mu(vector_b) 
+# Null hypothesis; mu_diff = 0
+# Alternate; mu_diff != 0
 
 mean_comparison <- function(output_file, vector_a, vector_b, lower_tail) {
 
@@ -10,7 +10,7 @@ mean_comparison <- function(output_file, vector_a, vector_b, lower_tail) {
 	output_file_txt = paste("output/", output_file, "/output.txt", sep="")
 	sink(file = output_file_txt)
 	cat("\n----------------------------------------------------------------")
-	cat("\nTest Mean Difference: ", title)
+	cat("\nTest Paired different in Means: ", title)
 	cat("\n----------------------------------------------------------------")
 
 	h0_mu_diff = 0				
@@ -19,6 +19,7 @@ mean_comparison <- function(output_file, vector_a, vector_b, lower_tail) {
 	ci_left_precentage = 0.025	
 	ci_right_precentage = 0.975	
 
+	diff_vector = vector_a - vector_b
 	sample_size = length(vector_a)
 	mu_diff = mean(vector_a) - mean(vector_b)
 	cat("\n","Sample Size :", sample_size)
@@ -30,9 +31,8 @@ mean_comparison <- function(output_file, vector_a, vector_b, lower_tail) {
 	cat("\n\n-----Confidence Interval-----")
 	bs_mean_differences = c()
 	for (i in 1:sim_sample_size){
-		sample_a <- sample(vector_a, sample_size, replace=TRUE)
-		sample_b <- sample(vector_b, sample_size, replace=TRUE)
-		bs_mean_differences <- c(bs_mean_differences, mean(sample_a) - mean(sample_b))
+		sample_diff <- sample(diff_vector, sample_size, replace=TRUE)
+		bs_mean_differences <- c(bs_mean_differences, mean(sample_diff))
 	}
 	png(paste("output/", output_file, "/bs_dist.png", sep=""))
 	hist(bs_mean_differences, main=paste(title, "- Bootstraped"))
@@ -56,12 +56,11 @@ mean_comparison <- function(output_file, vector_a, vector_b, lower_tail) {
 	# Randomization distribution for p-value, under H0
 	cat("\n\n----- p-value -----")
 
-	adjustment = 0 - mu_diff
-	vector_diff = vector_a - vector_b
+	adjustment = h0_mu_diff - mu_diff
 
 	altered_means = c()
-	for(i in 1:length(vector_diff)){
-		altered_means = c(altered_means, vector_diff[i] + adjustment)
+	for(i in 1:length(diff_vector)){
+		altered_means = c(altered_means, diff_vector[i] + adjustment)
 	}
 	# cat("\n","Altered Means :\n")
 	# print(altered_means)
@@ -71,7 +70,7 @@ mean_comparison <- function(output_file, vector_a, vector_b, lower_tail) {
 	sampleM = altered_means
 	for (i in 1:sim_sample_size){
 		rand_mean_differences = c(rand_mean_differences, mean(sampleM))
-		sampleM = sample(altered_means, replace=TRUE)
+		sampleM = sample(altered_means, sample_size, replace=TRUE)
 	}
 	png(paste("output/", output_file, "/rand_dist.png", sep=""))
 	hist(rand_mean_differences, main=paste(title, "- Randomization"))
