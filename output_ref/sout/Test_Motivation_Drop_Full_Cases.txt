@@ -1,0 +1,14 @@
+
+ Test Motivation Drop Full Cases 
+-----------------------------
+	Paired t-test
+
+data:  vector_a and vector_b
+t = 2.3094, df = 25, p-value = 0.01473
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.08010872        Inf
+sample estimates:
+mean of the differences 
+              0.3076923 
+

@@ -1,0 +1,14 @@
+
+ Test Student Appreciation 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 2.8972, df = 31, p-value = 0.003426
+alternative hypothesis: true mean is greater than 3
+95 percent confidence interval:
+ 3.194421      Inf
+sample estimates:
+mean of x 
+  3.46875 
+

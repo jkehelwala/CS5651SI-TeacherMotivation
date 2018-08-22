@@ -1,0 +1,14 @@
+
+ Performance School Administration 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 2.0614, df = 30, p-value = 0.02401
+alternative hypothesis: true mean is greater than 3
+95 percent confidence interval:
+ 3.05698     Inf
+sample estimates:
+mean of x 
+ 3.322581 
+

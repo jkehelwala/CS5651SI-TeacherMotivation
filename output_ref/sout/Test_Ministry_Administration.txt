@@ -1,0 +1,14 @@
+
+ Test Ministry Administration 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 0.21494, df = 31, p-value = 0.5844
+alternative hypothesis: true mean is less than 3
+95 percent confidence interval:
+     -Inf 3.277759
+sample estimates:
+mean of x 
+  3.03125 
+

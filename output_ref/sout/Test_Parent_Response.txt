@@ -1,0 +1,14 @@
+
+ Test Parent Response 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = -0.33822, df = 31, p-value = 0.6313
+alternative hypothesis: true mean is greater than 3
+95 percent confidence interval:
+ 2.624181      Inf
+sample estimates:
+mean of x 
+   2.9375 
+

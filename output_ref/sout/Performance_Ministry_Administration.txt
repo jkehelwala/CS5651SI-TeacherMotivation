@@ -1,0 +1,14 @@
+
+ Performance Ministry Administration 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 0.57104, df = 30, p-value = 0.2861
+alternative hypothesis: true mean is greater than 3
+95 percent confidence interval:
+ 2.809139      Inf
+sample estimates:
+mean of x 
+ 3.096774 
+

@@ -1,0 +1,14 @@
+
+ Test School Administration 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 1.6787, df = 31, p-value = 0.9484
+alternative hypothesis: true mean is less than 3
+95 percent confidence interval:
+     -Inf 3.502498
+sample estimates:
+mean of x 
+     3.25 
+

@@ -1,0 +1,14 @@
+
+ Test Parent Presence 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 0.92642, df = 31, p-value = 0.1807
+alternative hypothesis: true mean is greater than 3
+95 percent confidence interval:
+ 2.870283      Inf
+sample estimates:
+mean of x 
+  3.15625 
+

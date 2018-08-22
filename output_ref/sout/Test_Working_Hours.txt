@@ -1,0 +1,14 @@
+
+ Test Working Hours 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 2.8387, df = 30, p-value = 0.004026
+alternative hypothesis: true mean is greater than 3
+95 percent confidence interval:
+ 3.246444      Inf
+sample estimates:
+mean of x 
+ 3.612903 
+

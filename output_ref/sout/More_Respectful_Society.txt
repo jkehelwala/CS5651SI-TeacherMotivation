@@ -1,0 +1,14 @@
+
+ More Respectful Society 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 4.4641, df = 31, p-value = 4.955e-05
+alternative hypothesis: true mean is greater than 3
+95 percent confidence interval:
+ 3.465144      Inf
+sample estimates:
+mean of x 
+     3.75 
+

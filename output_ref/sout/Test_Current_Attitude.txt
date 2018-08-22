@@ -1,0 +1,14 @@
+
+ Test Current Attitude 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 1.6073, df = 31, p-value = 0.05907
+alternative hypothesis: true mean is greater than 3
+95 percent confidence interval:
+ 2.986274      Inf
+sample estimates:
+mean of x 
+     3.25 
+

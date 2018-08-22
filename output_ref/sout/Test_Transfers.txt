@@ -1,0 +1,14 @@
+
+ Test Transfers 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = -2.7179, df = 30, p-value = 0.005404
+alternative hypothesis: true mean is less than 3
+95 percent confidence interval:
+     -Inf 2.830409
+sample estimates:
+mean of x 
+ 2.548387 
+

@@ -1,0 +1,14 @@
+
+ Test Student Social Context 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 0.76948, df = 30, p-value = 0.7762
+alternative hypothesis: true mean is less than 3
+95 percent confidence interval:
+    -Inf 3.31023
+sample estimates:
+mean of x 
+ 3.096774 
+

@@ -1,0 +1,14 @@
+
+ Test Most Positive Attitude 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 1.9734, df = 31, p-value = 0.02871
+alternative hypothesis: true mean is greater than 3
+95 percent confidence interval:
+ 3.04401     Inf
+sample estimates:
+mean of x 
+   3.3125 
+

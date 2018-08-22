@@ -1,0 +1,101 @@
+"column_names","mean_vals","sd_vals","counts","min_vals","max_vals"
+"Age",39.7575757575758,8.8883009590919,33,24,57
+"Experience",12.8963636363636,10.8266193414028,33,0.58,39
+"Difficult_Area_Experience",1.16666666666667,2.42235754833056,30,0,10
+"Underprivileged_Experience",7.5,7.68226798408584,30,0,30
+"Administrative_Career_Decision",0.375,0.491869376837965,32,0,1
+"Progress_Outlook",0.774193548387097,0.425023718503241,31,0,1
+"School_Underprivileged",0.666666666666667,0.478713553878169,33,0,1
+"Student_Racial_Diversity",1,0,33,1,1
+"Student_Economical_Diversity",0.96969696969697,0.174077655955698,33,0,1
+"Student_Potential",0.787878787878788,0.415148750267281,33,0,1
+"Student_Gaps",1,0,33,1,1
+"Privileged_School_Potential",0.454545454545455,0.505649896847432,33,0,1
+"Privileged_Family_Potential",0.939393939393939,0.24230584229878,33,0,1
+"Most_Positive_Attitude",3.3125,0.895778630487862,32,2,5
+"Current_Attitude",3.25,0.87988269012812,32,2,5
+"Student_Engagement",3.18181818181818,1.07396885006461,33,2,5
+"Student_Interference",2.78125,0.832190075992645,32,1,5
+"Student_Social_Context",3.09375,0.689056156707691,32,2,4
+"Student_Financial_Context",3.12121212121212,1.08275042592856,33,1,5
+"Student_Appreciation",3.42424242424242,0.936426152664448,33,1,5
+"Parent_Presence",3.12121212121212,0.96038975673863,33,1,5
+"Parent_Interest",3.12121212121212,1.02340045185083,33,2,5
+"Parent_Response",2.90909090909091,1.0417424214878,33,1,5
+"Working_Hours",3.625,1.1845783243212,32,1,5
+"Salary",2.33333333333333,1.13651514141549,33,1,5
+"Vacation_Days",2.87878787878788,0.892943718746308,33,1,5
+"Training",3.24242424242424,1.06155260792574,33,1,5
+"Transfers",2.5625,0.913606818798349,32,1,5
+"School_Administration",3.24242424242424,0.830297500534561,33,1,5
+"Ministry_Administration",3.03030303030303,0.809507893910263,33,2,5
+"Performance_Training",3.67741935483871,0.87128628185358,31,2,5
+"Performance_Transfers",2.90322580645161,0.943569065116678,31,1,5
+"Performance_School_Administration",3.32258064516129,0.87128628185358,31,2,5
+"Performance_Ministry_Administration",3.09677419354839,0.943569065116678,31,1,5
+"Respectful_Parents",3.7,0.836660026534076,30,3,5
+"Respectful_School_Admins",3.23333333333333,0.935260735665815,30,1,5
+"Respectful_Ministry_Workers",2.43333333333333,1.00630198159445,30,1,4
+"Respectful_Financial_Workers",3.26666666666667,0.739679955644067,30,2,5
+"Respectful_Society",3.86666666666667,0.899552890217607,30,2,5
+"More_Respectful_Parents",3.5625,0.913606818798349,32,2,5
+"More_Respectful_School_Admins",3.46875,0.949851431506782,32,1,5
+"More_Respectful_Ministry_Workers",3.34375,0.901946819117474,32,2,5
+"More_Respectful_Financial_Workers",3.375,0.793115538912532,32,2,5
+"More_Respectful_Society",3.75,0.950381926622983,32,2,5
+
+
+
+"Test","Proportion","successes","CI Low","CI High","p-value","sample_size","HT"
+"Eval Progress Outlook","0.774193548387097","24","0.617389769083018","1","0.001663446","31","greater"
+"Eval Student Potential","0.787878787878788","26","0.63823573377137","1","0.0006593636","33","greater"
+"Eval Privileged School Potential","0.454545454545455","15","0.304909579728731","1","0.7565749","33","greater"
+"Eval Privileged Family Potential","0.939393939393939","31","0.821265712402502","1","0.00000006542541","33","greater"
+"Eval School Underprivileged","0.666666666666667","22","0.509144095229815","1","0.04007166","33","greater"
+"Eval Student Racial Diversity","1","33","0.913218810708525","1","0.0000000001164153","33","greater"
+"Eval Student Economical Diversity","0.96969696969697","32","0.864149353201452","1","0.000000003958121","33","greater"
+"Eval Student Gaps","1","33","0.913218810708525","1","0.0000000001164153","33","greater"
+
+
+
+"Test","Mean difference","t-Statistic","CI Low","CI High","p-value","df","HT"
+"Test Motivation Drop","0.0625","0.441552435684732","-0.177493974316516","Inf","0.3309389","31","greater"
+"Test Motivation Drop Full Cases","0.307692307692308","2.3094010767585","0.0801087242332563","Inf","0.01473333","25","greater"
+
+
+
+"Test","Mean","t-Statistic","CI Low","CI High","p-value","df","HT"
+"Test Most Positive Attitude","3.3125","1.97344175536271","3.04400987704312","Inf","0.02870836","31","greater"
+"Test Current Attitude","3.25","1.60727512683216","2.98627433874877","Inf","0.05906664","31","greater"
+"Test Student Engagement","3.1875","0.97250332228965","2.86060160855917","Inf","0.1691639","31","greater"
+"Test Student Interference","2.7741935483871","-1.48790302832098","-Inf","3.03177247051325","0.07360666","30","less"
+"Test Student Appreciation","3.46875","2.89715408721286","3.19442063905014","Inf","0.003425569","31","greater"
+"Test Student Social Context","3.09677419354839","0.769483764063865","-Inf","3.31023035885315","0.7761886","30","less"
+"Test Student Financial Context","3.09375","0.487285140867889","-Inf","3.41995507487785","0.6852578","31","less"
+"Test Parent Presence","3.15625","0.926417981720415","2.87028317400985","Inf","0.1806927","31","greater"
+"Test Parent Interest","3.15625","0.86700483342558","2.85068675564523","Inf","0.1963005","31","greater"
+"Test Parent Response","2.9375","-0.338217598465011","2.62418122418804","Inf","0.6312604","31","greater"
+"Test Working Hours","3.61290322580645","2.83866794716918","3.24644378363537","Inf","0.004026047","30","greater"
+"Test Salary","2.28125","-3.64988899600856","-Inf","2.61513799667265","0.0004781992","31","less"
+"Test Vacation Days","2.84375","-1","2.57882519022721","Inf","0.8374736","31","greater"
+"Test Training","3.1875","1.02996917521892","2.87884049894282","Inf","0.155497","31","greater"
+"Test Transfers","2.54838709677419","-2.71789158602157","-Inf","2.83040898479523","0.005404037","30","less"
+"Test School Administration","3.25","1.67874411932904","-Inf","3.50249809709289","0.948372","31","less"
+"Test Ministry Administration","3.03125","0.214941159244587","-Inf","3.27775914762335","0.5843895","31","less"
+"Test Respectful Parents","3.72413793103448","4.63812409514355","-Inf","3.9897309617272","0.9999627","28","less"
+"Test Respectful School Admins","3.24137931034483","1.36719048024198","-Inf","3.54171625508912","0.908779","28","less"
+"Test Respectful Ministry Workers","2.41379310344828","-3.1000727905024","-Inf","2.73546770691543","0.002189471","28","less"
+"Test Respectful Financial Workers","3.27586206896552","1.97804543816832","-Inf","3.5131051019377","0.97108","28","less"
+"Test Respectful Society","3.89655172413793","5.36339048054573","-Inf","4.18091510913341","0.9999949","28","less"
+"Performance Training","3.67741935483871","4.32890018024651","3.41181901135285","Inf","0.00007678652","30","greater"
+"Performance Transfers","2.90322580645161","-0.57104024072016","2.61559099224971","Inf","0.7138872","30","greater"
+"Performance School Administration","3.32258064516129","2.06138103821262","3.05698030167543","Inf","0.02401248","30","greater"
+"Performance Ministry Administration","3.09677419354839","0.57104024072016","2.80913937934649","Inf","0.2861128","30","greater"
+"More Respectful Parents","3.5625","3.48287737117009","3.28866626612334","Inf","0.0007501451","31","greater"
+"More Respectful School Admins","3.46875","2.7916475582325","3.18405273333587","Inf","0.004449591","31","greater"
+"More Respectful Ministry Workers","3.34375","2.15594046904637","3.07341109692354","Inf","0.01948149","31","greater"
+"More Respectful Financial Workers","3.375","2.67466748472519","3.13728090142576","Inf","0.005916753","31","greater"
+"More Respectful Society","3.75","4.46414285485707","3.46514372898577","Inf","0.0000495548","31","greater"
+
+
+

@@ -1,0 +1,14 @@
+
+ Test Salary 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = -3.6499, df = 31, p-value = 0.0004782
+alternative hypothesis: true mean is less than 3
+95 percent confidence interval:
+     -Inf 2.615138
+sample estimates:
+mean of x 
+  2.28125 
+

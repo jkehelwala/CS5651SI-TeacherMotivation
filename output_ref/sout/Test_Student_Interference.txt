@@ -1,0 +1,14 @@
+
+ Test Student Interference 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = -1.4879, df = 30, p-value = 0.07361
+alternative hypothesis: true mean is less than 3
+95 percent confidence interval:
+     -Inf 3.031772
+sample estimates:
+mean of x 
+ 2.774194 
+

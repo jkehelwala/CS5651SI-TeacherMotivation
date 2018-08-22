@@ -1,0 +1,14 @@
+
+ Test Parent Interest 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 0.867, df = 31, p-value = 0.1963
+alternative hypothesis: true mean is greater than 3
+95 percent confidence interval:
+ 2.850687      Inf
+sample estimates:
+mean of x 
+  3.15625 
+

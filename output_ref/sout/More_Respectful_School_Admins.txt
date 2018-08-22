@@ -1,0 +1,14 @@
+
+ More Respectful School Admins 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 2.7916, df = 31, p-value = 0.00445
+alternative hypothesis: true mean is greater than 3
+95 percent confidence interval:
+ 3.184053      Inf
+sample estimates:
+mean of x 
+  3.46875 
+

@@ -1,0 +1,14 @@
+
+ Test Respectful Ministry Workers 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = -3.1001, df = 28, p-value = 0.002189
+alternative hypothesis: true mean is less than 3
+95 percent confidence interval:
+     -Inf 2.735468
+sample estimates:
+mean of x 
+ 2.413793 
+

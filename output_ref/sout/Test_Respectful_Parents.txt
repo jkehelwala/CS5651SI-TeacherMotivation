@@ -1,0 +1,14 @@
+
+ Test Respectful Parents 
+-----------------------------
+	One Sample t-test
+
+data:  vector_mean
+t = 4.6381, df = 28, p-value = 1
+alternative hypothesis: true mean is less than 3
+95 percent confidence interval:
+     -Inf 3.989731
+sample estimates:
+mean of x 
+ 3.724138 
+
