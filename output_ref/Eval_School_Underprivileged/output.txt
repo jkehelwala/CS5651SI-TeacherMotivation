@@ -1,0 +1,18 @@
+
+----------------------------------------------------------------
+Test Proportion :  Eval School Underprivileged
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 33
+ Proportion : 0.6666667
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.08641108
+ Bootstrap Std.Dev : 0.08641108
+ Bootstrap Std.Error : 0.08641108
+ Confidence Interval : [ 0.497304 , 0.836029 ]
+
+----- p-value -----
+ Randomization Mean : 0.5030909
+ Randomization Std.Dev : 0.08711191
+ p-value : 0.02785817

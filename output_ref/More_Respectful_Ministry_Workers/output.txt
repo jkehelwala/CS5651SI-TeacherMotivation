@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  More Respectful Ministry Workers
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 32
+ Smple Mean : 3.34375
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1557074
+ Bootstrap Std.Dev : 0.1557074
+ Bootstrap Std.Error : 0.1557074
+ Confidence Interval : [ 3.038569 , 3.648931 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 2.99025
+ Randomization Std.Dev : 0.1602212
+ p-value : 0.0159576

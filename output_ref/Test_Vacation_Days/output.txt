@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Test Vacation Days
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 32
+ Smple Mean : 2.84375
+ Influence : (-)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1581072
+ Bootstrap Std.Dev : 0.1581072
+ Bootstrap Std.Error : 0.1581072
+ Confidence Interval : [ 2.533866 , 3.153634 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 2.998562
+ Randomization Std.Dev : 0.1529522
+ p-value : 0.8465056

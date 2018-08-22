@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  More Respectful Financial Workers
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 32
+ Smple Mean : 3.375
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1377023
+ Bootstrap Std.Dev : 0.1377023
+ Bootstrap Std.Error : 0.1377023
+ Confidence Interval : [ 3.105108 , 3.644892 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 3.009031
+ Randomization Std.Dev : 0.1390512
+ p-value : 0.003499954

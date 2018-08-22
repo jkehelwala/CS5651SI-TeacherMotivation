@@ -1,0 +1,3 @@
+"Test","Mean difference","Influence","Std.Error","CI Low","CI High","p-value","sample_size"
+"Test Motivation Drop","0.0625","(+)","0.138068765049593","-0.20811","0.33311","0.330468","32"
+"Test Motivation Drop Full Cases","0.307692307692307","(+)","0.133789223635892","0.04547","0.569914","0.01097996","26"

@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Test Respectful Parents
+----------------------------------------------------------------
+ Lower Tail : TRUE
+ Sample Size : 29
+ Smple Mean : 3.724138
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1580884
+ Bootstrap Std.Dev : 0.1580884
+ Bootstrap Std.Error : 0.1580884
+ Confidence Interval : [ 3.41429 , 4.033986 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 3.003414
+ Randomization Std.Dev : 0.1497205
+ p-value : 0.9999993

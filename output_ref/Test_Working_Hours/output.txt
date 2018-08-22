@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Test Working Hours
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 31
+ Smple Mean : 3.612903
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.2120022
+ Bootstrap Std.Dev : 0.2120022
+ Bootstrap Std.Error : 0.2120022
+ Confidence Interval : [ 3.197387 , 4.02842 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 3.005645
+ Randomization Std.Dev : 0.2105564
+ p-value : 0.001802096

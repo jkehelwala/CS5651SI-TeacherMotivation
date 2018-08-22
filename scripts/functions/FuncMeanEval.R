@@ -27,7 +27,11 @@ single_mean_eval <- function(output_file, vector_x, lower_tail) {
 	cat("\n","Lower Tail :", lower_tail)
 	cat("\n","Sample Size :", sample_size)
 	cat("\n","Smple Mean :", sample_mean)
-	cat("\n","Influence :", get_influence(h0_mean-sample_mean))
+
+	influence = "(-)"
+	if (sample_mean == h0_mean) { influence = "(0)" } 
+	if (sample_mean > h0_mean){  influence = "(+)" } 
+	cat("\n","Influence :", influence)
 
 	# Bootstrap for Confidence Intervals
 	cat("\n\n-----Confidence Interval-----")
@@ -49,7 +53,9 @@ single_mean_eval <- function(output_file, vector_x, lower_tail) {
 	cat("\n","Bootstrap Std.Error :", bs_standard_error)
 
 	ci_interval_v = qnorm(c(ci_left_precentage, ci_right_precentage), mean=sample_mean, sd=bs_standard_error)
-	ci_interval = paste("[",  round(ci_interval_v[1], digits = 6) , "," , round(ci_interval_v[2], digits = 6), "]")
+	ci_low = round(ci_interval_v[1], digits = 6)
+	ci_high = round(ci_interval_v[2], digits = 6)
+	ci_interval = paste("[",  ci_low , "," , ci_high, "]")
 
 	cat("\n","Confidence Interval :", ci_interval)
 
@@ -85,7 +91,7 @@ single_mean_eval <- function(output_file, vector_x, lower_tail) {
 	sink()
 
 	print_str = readChar(output_file_txt, file.info(output_file_txt)$size)
-	# single_mean_props = c("Type", "Test", "Mean", "Influence", "Std.Error", "Confidence Interval", "p-value", "filestr")
-	mean_props = c("Type3", title, sample_mean, get_influence(h0_mean-sample_mean), bs_standard_error, ci_interval, format(p_value, scientific = FALSE), print_str)
+	# single_mean_props = c("Type", "Test", "Mean", "Influence", "Std.Error", "CI Low", "CI High", "p-value", "sample_size", "filestr")
+	mean_props = c("Type3", title, sample_mean, influence, bs_standard_error, ci_low, ci_high, format(p_value, scientific = FALSE), sample_size, print_str)
 	return(mean_props)
 }

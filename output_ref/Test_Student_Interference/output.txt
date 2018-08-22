@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Test Student Interference
+----------------------------------------------------------------
+ Lower Tail : TRUE
+ Sample Size : 31
+ Smple Mean : 2.774194
+ Influence : (-)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.151133
+ Bootstrap Std.Dev : 0.151133
+ Bootstrap Std.Error : 0.151133
+ Confidence Interval : [ 2.477978 , 3.070409 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 3.000161
+ Randomization Std.Dev : 0.1517951
+ p-value : 0.0684316

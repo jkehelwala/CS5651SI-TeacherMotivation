@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Paired different in Means:  Test Motivation Drop
+----------------------------------------------------------------
+ Sample Size : 32
+ Lower Tail : FALSE
+ Mean difference : 0.0625
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1380688
+ Bootstrap Std.Dev : 0.1380688
+ Bootstrap Std.Error : 0.1380688
+ Confidence Interval : [ -0.20811 , 0.33311 ]
+
+----- p-value -----
+ Mean of altered means: 0
+ Randomization Mean : -0.00071875
+ Randomization Std.Dev : 0.142492
+ p-value : 0.330468

@@ -1,0 +1,18 @@
+
+----------------------------------------------------------------
+Test Proportion :  Eval Student Potential
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 33
+ Proportion : 0.7878788
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.07196846
+ Bootstrap Std.Dev : 0.07196846
+ Bootstrap Std.Error : 0.07196846
+ Confidence Interval : [ 0.646823 , 0.928934 ]
+
+----- p-value -----
+ Randomization Mean : 0.4999394
+ Randomization Std.Dev : 0.08281916
+ p-value : 0.0002544832

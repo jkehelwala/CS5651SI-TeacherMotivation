@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Test Salary
+----------------------------------------------------------------
+ Lower Tail : TRUE
+ Sample Size : 32
+ Smple Mean : 2.28125
+ Influence : (-)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1874551
+ Bootstrap Std.Dev : 0.1874551
+ Bootstrap Std.Error : 0.1874551
+ Confidence Interval : [ 1.913845 , 2.648655 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 2.994219
+ Randomization Std.Dev : 0.1884796
+ p-value : 6.853126e-05

@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Test Respectful Society
+----------------------------------------------------------------
+ Lower Tail : TRUE
+ Sample Size : 29
+ Smple Mean : 3.896552
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1669027
+ Bootstrap Std.Dev : 0.1669027
+ Bootstrap Std.Error : 0.1669027
+ Confidence Interval : [ 3.569428 , 4.223675 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 3.000448
+ Randomization Std.Dev : 0.1696644
+ p-value : 0.9999999

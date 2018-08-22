@@ -50,8 +50,7 @@ CS5651SI-TeacherMotivation
 └───scripts                             # R scripts used for analysis (called through init.R)
     └───functions                           # R Functions for Confidence Interval and Hypothesis Testing
 ~~~~~~~~
-<!---
+
 ## Summary Output
 
-![Visual Summary of tests](output_ref/VisualSummary.png?raw=true "Visual Summary of tests")
--->
+![Visual Summary of tests](VisualSummary.png?raw=true "Visual Summary of tests")

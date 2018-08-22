@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Test Parent Presence
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 32
+ Smple Mean : 3.15625
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1729819
+ Bootstrap Std.Dev : 0.1729819
+ Bootstrap Std.Error : 0.1729819
+ Confidence Interval : [ 2.817212 , 3.495288 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 2.994969
+ Randomization Std.Dev : 0.1661764
+ p-value : 0.1735406

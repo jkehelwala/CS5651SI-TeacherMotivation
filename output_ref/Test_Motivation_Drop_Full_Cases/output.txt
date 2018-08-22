@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Paired different in Means:  Test Motivation Drop Full Cases
+----------------------------------------------------------------
+ Sample Size : 26
+ Lower Tail : FALSE
+ Mean difference : 0.3076923
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1337892
+ Bootstrap Std.Dev : 0.1337892
+ Bootstrap Std.Error : 0.1337892
+ Confidence Interval : [ 0.04547 , 0.569914 ]
+
+----- p-value -----
+ Mean of altered means: 0
+ Randomization Mean : 0.001384615
+ Randomization Std.Dev : 0.1343013
+ p-value : 0.01097996

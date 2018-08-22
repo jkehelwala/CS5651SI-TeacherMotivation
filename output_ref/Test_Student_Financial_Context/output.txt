@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Test Student Financial Context
+----------------------------------------------------------------
+ Lower Tail : TRUE
+ Sample Size : 32
+ Smple Mean : 3.09375
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1905037
+ Bootstrap Std.Dev : 0.1905037
+ Bootstrap Std.Error : 0.1905037
+ Confidence Interval : [ 2.72037 , 3.46713 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 2.999531
+ Randomization Std.Dev : 0.1911422
+ p-value : 0.6881002

@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Test Student Social Context
+----------------------------------------------------------------
+ Lower Tail : TRUE
+ Sample Size : 31
+ Smple Mean : 3.096774
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1274308
+ Bootstrap Std.Dev : 0.1274308
+ Bootstrap Std.Error : 0.1274308
+ Confidence Interval : [ 2.847014 , 3.346534 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 3.004935
+ Randomization Std.Dev : 0.1250124
+ p-value : 0.7805691

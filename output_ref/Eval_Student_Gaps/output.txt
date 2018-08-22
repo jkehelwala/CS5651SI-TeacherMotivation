@@ -1,0 +1,18 @@
+
+----------------------------------------------------------------
+Test Proportion :  Eval Student Gaps
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 33
+ Proportion : 1
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0
+ Bootstrap Std.Dev : 0
+ Bootstrap Std.Error : 0
+ Confidence Interval : [ 1 , 1 ]
+
+----- p-value -----
+ Randomization Mean : 0.5026667
+ Randomization Std.Dev : 0.0865756
+ p-value : 3.840814e-09

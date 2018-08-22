@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Current Attitude
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 32
+ Smple Mean : 3.25
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1507292
+ Bootstrap Std.Dev : 0.1507292
+ Bootstrap Std.Error : 0.1507292
+ Confidence Interval : [ 2.954576 , 3.545424 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 3.003437
+ Randomization Std.Dev : 0.1595831
+ p-value : 0.05860626

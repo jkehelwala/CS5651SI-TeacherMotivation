@@ -1,0 +1,20 @@
+
+----------------------------------------------------------------
+Test Single Mean:  Most Positive Attitude
+----------------------------------------------------------------
+ Lower Tail : FALSE
+ Sample Size : 32
+ Smple Mean : 3.3125
+ Influence : (+)
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.1496886
+ Bootstrap Std.Dev : 0.1496886
+ Bootstrap Std.Error : 0.1496886
+ Confidence Interval : [ 3.019116 , 3.605884 ]
+
+----- p-value -----
+ Adjusted Mean : 3
+ Randomization Mean : 3.005813
+ Randomization Std.Dev : 0.1583579
+ p-value : 0.02422627

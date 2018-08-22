@@ -1,0 +1,18 @@
+
+----------------------------------------------------------------
+Test Proportion :  Eval Privileged School Potential
+----------------------------------------------------------------
+ Lower Tail : TRUE
+ Sample Size : 33
+ Proportion : 0.4545455
+
+-----Confidence Interval-----
+ Bootstrap Mean : 0.08765005
+ Bootstrap Std.Dev : 0.08765005
+ Bootstrap Std.Error : 0.08765005
+ Confidence Interval : [ 0.282755 , 0.626336 ]
+
+----- p-value -----
+ Randomization Mean : 0.4998485
+ Randomization Std.Dev : 0.08721936
+ p-value : 0.3011304
